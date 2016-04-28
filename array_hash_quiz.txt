@@ -137,6 +137,14 @@ Return an array of Anil's favorite numbers that are even
 
     puts new_numbers
 
+
+  - new_numbers = []
+    for x in users["Anil"][:favorite_numbers]
+        new_numbers << x if x.even?
+    end
+
+    puts new_numbers
+
 Return an array of Jonathans favourite numbers, sorted in ascending order and excluding duplicates
   - users["Jonathan"][:favorite_numbers].sort.uniq
 
