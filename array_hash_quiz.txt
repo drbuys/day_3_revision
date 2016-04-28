@@ -146,6 +146,6 @@ Change Erik's hometown to Edinburgh
 
 Add a pet dog to Erik called "Fluffy"
   - users["Erik"][:pets]["Fluffy"] = :dog
-  
+
 Add yourself to the users hash
   - users["Zak"] = { :twitter => "insidescotland", :favorite_numbers => [30, 100, 19], :home_town => "Edinburgh" }
