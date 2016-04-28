@@ -14,7 +14,7 @@ Return 'Edinburgh Park' from the array
   - lines[1]
 
 How many ways can we return 'Princes Street' from the array?
-  - lines.last, lines[4], lines[-1] => 3, lines.at(4)
+  - lines.last, lines[4], lines[-1] => 3, lines.at(4), lines[lines.length - 1]
 
 Work out the index position of 'Haymarket'
   - lines.index('Haymarket')
