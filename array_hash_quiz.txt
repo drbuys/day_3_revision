@@ -63,7 +63,7 @@ B. Given the following data structure:
 
   my_hash = {0 => "Zero", 1 => "One", :two => "Two", "two" => 2}
 How would you return the string "One"?
-  - my_hash[1]
+  - my_hash[1], my_hash.fetch(1)
 
 How would you return the string "Two"?
   - my_hash[:two]
