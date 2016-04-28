@@ -23,7 +23,7 @@ Add 'Airport' to the start of the array
   - lines.unshift('Airport')
 
 Add 'York Place' to the end of the array
-  - lines << 'York Place'
+  - lines << 'York Place', lines.push('York Place')
 
 Remove 'Edinburgh Park' from the array using it's name
   - lines.delete('Edinburgh Park')
