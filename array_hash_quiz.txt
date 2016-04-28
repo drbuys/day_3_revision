@@ -7,6 +7,8 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 
 Work out how many stops there are in the lines array
   - lines.length
+  - lines.count
+  -lines.size
 
 Return 'Edinburgh Park' from the array
   - lines[1]
