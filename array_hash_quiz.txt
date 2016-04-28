@@ -8,13 +8,13 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 Work out how many stops there are in the lines array
   - lines.length
   - lines.count
-  -lines.size
+  - lines.size
 
 Return 'Edinburgh Park' from the array
   - lines[1]
 
 How many ways can we return 'Princes Street' from the array?
-  - lines.last, lines[4], lines[-1] => 3
+  - lines.last, lines[4], lines[-1] => 3, lines.at(4)
 
 Work out the index position of 'Haymarket'
   - lines.index('Haymarket')
